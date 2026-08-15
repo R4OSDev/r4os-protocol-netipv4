@@ -1,0 +1,20 @@
+# R4OS 0.58.35 protocol project manifest.
+R4OS_MODULE_MANIFEST=2
+KIND=R4P
+NAME=NETIPV4
+VERSION=0.1.1
+LANGUAGE=Zig
+SOURCE=src/main.zig
+TARGET=/R4OS/PROTOCOLS/NETIPV4.R4P
+IMAGE_SCOPE=slim
+IMPORT=R4DEV:Query:1
+META=r4p.name=NETIPV4
+META=r4p.role=net.ipv4
+META=r4p.category=net
+META=module.name=R4P_NETIPV4
+META=r4p.dep=net.ethernet
+META=r4p.dep=net.arp
+META=description=IPv4 parser and builder
+META=feature=dispatch
+META=dependency=net.ethernet
+META=dependency=net.arp
