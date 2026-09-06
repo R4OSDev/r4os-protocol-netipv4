@@ -6,14 +6,14 @@ Projektstruktur seit 0.51.22
 
 Dieses Verzeichnis ist ein eigenstaendiges R4OS-SDK-Projekt fuer NETIPV4.R4P.
 
-Build:
+Build im jeweiligen Repository:
 
-    cd Code\System\Protocols\NetIpv4
-    ..\..\..\DevTools\Zig\zig.exe build
+    Build.bat       (Windows)
+    ./Build.sh      (Linux)
 
-Artefakt:
+Standardziel im Workspace, ueber ARTIFACTS_ROOT in Settings.R4S:
 
-    zig-out\NETIPV4.R4P
+    Artifacts/Modules/NetIpv4/NETIPV4.R4P
 
 Manifest:
 
